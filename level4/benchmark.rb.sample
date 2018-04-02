@@ -1,0 +1,19 @@
+require "benchmark"
+
+words = [] # TODO: Get the 100_000 most common words
+
+Benchmark.bm(12) do |x|
+
+  x.report("multi-tap") do
+    words.each do |word|
+      # TODO: Convert the word to taps, and back to word, using multi-tap.
+    end
+  end
+
+  x.report("t9") do
+    words.each do |word|
+      # TODO: Convert the word to taps, and back to word, using T9.
+    end
+  end
+
+end
