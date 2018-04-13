@@ -81,7 +81,7 @@ vie
 Once `t9_to_word.rb` is done, write `word_to_t9.rb` that does the reverse.
 
 ```
-$ echo "tid" | ruby level2/t9_to_word.rb
+$ echo "tid" | ruby level2/word_to_t9.rb
 8431
 ```
 
@@ -182,8 +182,8 @@ then converting a sequence of taps back into a word.
 **Notes**
 
 You don't have to do all the levels, go as far as you can in a decent amount of
-time. The whole test should be less than a day of work. If it isn't the case let
-me know.
+time. The whole test should take a full day of work for a developer with a bit
+of experience. If it isn't the case let me know.
 
 All examples aren't necessarly accurate. Correctness isn't that much of an issue
 in the whole test as many things depends on your own implementations.
